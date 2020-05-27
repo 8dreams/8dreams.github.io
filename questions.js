@@ -441,7 +441,7 @@ questions = [
         }
     },
     {
-        "question": "Just like evolution, some ethnicities may die, and that's normal.",
+        "question": "Just like how certain species go extinct in evolution, some ethnicities may die, and that's normal.",
         "effect": {
             "econ": -10,
             "dipl": 0,
