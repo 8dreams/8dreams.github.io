@@ -156,7 +156,16 @@ ideologies = [
         "name": "Anti-Realism",
         "stats": {
             "econ": 50,
-            "dipl": 0,
+            "dipl": 100,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Totalitarian Anti-Realism",
+        "stats": {
+            "econ": 50,
+            "dipl": 100,
             "govt": 50,
             "scty": 50
         }
