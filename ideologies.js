@@ -162,20 +162,20 @@ ideologies = [
         }
     },
     {
-        "name": "Anti-Realism",
+        "name": "Platformist Anti-Realism",
         "stats": {
             "econ": 50,
-            "dipl": 0,
+            "dipl": 110,
             "govt": 50,
             "scty": 50
         }
     },
     {
-        "name": "Totalitarian Anti-Realism",
+        "name": "Anti-Realism",
         "stats": {
             "econ": 50,
-            "dipl": 100,
-            "govt": 0,
+            "dipl": 110,
+            "govt": -10,
             "scty": 50
         }
     },
