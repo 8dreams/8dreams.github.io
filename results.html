@@ -76,21 +76,21 @@
         }
     }
 
-    econArray = ["Ultra-Collectivist","Communalist","Utopian","Realist","Economic Anarchism","Social Darwinism","Combatocratic"]
-    diplArray = ["Anti-Dominionist","Insularist","Ideological Pacificist","Mortal","Imperialist","Dominionist","Universalist"]
-    govtArray = ["Egoist","Selfist","Individualist","Rational","Absolutist","Totalitist","Hyper-Totalitarian"]
-    sctyArray = ["Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist"]
+    econArray = ["Ultra-Hivemind","Communalist","Posadist","Utopian","Realist","Economic Anarchism","Social Darwinism","Band Society Anarchist","Combatocratic"]
+    diplArray = ["Based Insularist","Anti-Dominionist","Insularist","Ideological Pacificist","Mortal","Imperialist","Dominionist","Universalist","Interdimensional Dominionist"]
+    govtArray = ["Anti-Societist","Egoist","Selfist","Individualist","Rational","Absolutist","Totalitist","Orwellian","Ultra-Orwellian"]
+    sctyArray = ["Post-Civilisationist","Post-Humanist","Hedonist","Humanist","Sensible","Reactionary","Stalwartist","Primalist","Pre-Mammalist"]
 
     function setLabel(val,ary) {
-        if (val > 100) { return "" } else
-        if (val > 90) { return ary[0] } else
-        if (val > 75) { return ary[1] } else
-        if (val > 60) { return ary[2] } else
-        if (val >= 40) { return ary[3] } else
-        if (val >= 25) { return ary[4] } else
-        if (val >= 10) { return ary[5] } else
-        if (val >= 0) { return ary[6] } else
-        	{return ""}
+        if (val > 100) { return ary[0] } else
+        if (val > 90) { return ary[1] } else
+        if (val > 75) { return ary[2] } else
+        if (val > 60) { return ary[3] } else
+        if (val >= 40) { return ary[4] } else
+        if (val >= 25) { return ary[5] } else
+        if (val >= 10) { return ary[6] } else
+        if (val >= 0) { return ary[7] } else
+        	{return ary[8]}
     }
 
     equality  = getQueryVariable("e")
