@@ -180,6 +180,123 @@ ideologies = [
         }
     },
     {
+        "name": "Kakistocracy",
+        "stats": {
+            "econ": 50,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Market Kakistocracy",
+        "stats": {
+            "econ": 40,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Social Kakistocracy",
+        "stats": {
+            "econ": 60,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Totalitarian Kakistocracy",
+        "stats": {
+            "econ": 50,
+            "dipl": 70,
+            "govt": 0,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Ego-Kakistocracy",
+        "stats": {
+            "econ": 50,
+            "dipl": 70,
+            "govt": 100,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Kakistocratic Darwinism",
+        "stats": {
+            "econ": 10,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Kakistocratic Communalism",
+        "stats": {
+            "econ": 90,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Dark Enlightment",
+        "stats": {
+            "econ": 0,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Banana Republicanism",
+        "stats": {
+            "econ": 40,
+            "dipl": 40,
+            "govt": 30,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Individualist Egoism",
+        "stats": {
+            "econ": 30,
+            "dipl": 90,
+            "govt": 90,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Senatorialism",
+        "stats": {
+            "econ": 50,
+            "dipl": -20,
+            "govt": -20,
+            "scty": -20
+        }
+    },
+    {
+        "name": "Hivemind Individualism",
+        "stats": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Illuminati Thought",
+        "stats": {
+            "econ": 110,
+            "dipl": -10,
+            "govt": -30,
+            "scty": -30
+        }
+    },
+    {
         "name": "Egoism",
         "stats": {
             "econ": 50,
