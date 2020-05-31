@@ -297,6 +297,15 @@ ideologies = [
         }
     },
     {
+        "name": "Proletariat Collectivism",
+        "stats": {
+            "econ": 100,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 100
+        }
+    },
+    {
         "name": "Egoism",
         "stats": {
             "econ": 50,
