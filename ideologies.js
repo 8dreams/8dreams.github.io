@@ -183,63 +183,63 @@ ideologies = [
         "name": "Kakistocracy",
         "stats": {
             "econ": 50,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 90
+            "dipl": 60,
+            "govt": 55,
+            "scty": 70
         }
     },
     {
         "name": "Market Kakistocracy",
         "stats": {
             "econ": 40,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 90
+            "dipl": 60,
+            "govt": 55,
+            "scty": 70
         }
     },
     {
         "name": "Social Kakistocracy",
         "stats": {
             "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 90
+            "dipl": 60,
+            "govt": 55,
+            "scty": 70
         }
     },
     {
         "name": "Totalitarian Kakistocracy",
         "stats": {
             "econ": 50,
-            "dipl": 70,
-            "govt": 0,
-            "scty": 90
+            "dipl": 60,
+            "govt": 10,
+            "scty": 70
         }
     },
     {
         "name": "Ego-Kakistocracy",
         "stats": {
             "econ": 50,
-            "dipl": 70,
-            "govt": 100,
-            "scty": 90
+            "dipl": 60,
+            "govt": 90,
+            "scty": 70
         }
     },
     {
         "name": "Kakistocratic Darwinism",
         "stats": {
             "econ": 10,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 90
+            "dipl": 60,
+            "govt": 55,
+            "scty": 70
         }
     },
     {
         "name": "Kakistocratic Communalism",
         "stats": {
             "econ": 90,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 90
+            "dipl": 60,
+            "govt": 55,
+            "scty": 70
         }
     },
     {
@@ -303,6 +303,33 @@ ideologies = [
             "dipl": 0,
             "govt": 0,
             "scty": 100
+        }
+    },
+    {
+        "name": "Fordism",
+        "stats": {
+            "econ": 10,
+            "dipl": 80,
+            "govt": 70,
+            "scty": 100
+        }
+    },
+    {
+        "name": "Fully Automated Luxury Space Gay Communism",
+        "stats": {
+            "econ": 0,
+            "dipl": 50,
+            "govt": 30,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Completely Underground Manual Primal Straight Capitalism",
+        "stats": {
+            "econ": 100,
+            "dipl": 50,
+            "govt": 70,
+            "scty": 90
         }
     },
     {
