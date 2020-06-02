@@ -156,15 +156,6 @@ ideologies = [
         "name": "Platformist Anti-Realism",
         "stats": {
             "econ": 50,
-            "dipl": 100,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Platformist Anti-Realism",
-        "stats": {
-            "econ": 50,
             "dipl": 110,
             "govt": 50,
             "scty": 50
@@ -176,6 +167,15 @@ ideologies = [
             "econ": 50,
             "dipl": 110,
             "govt": -10,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Anti-Compassism",
+        "stats": {
+            "econ": 50,
+            "dipl": 10,
+            "govt": -20,
             "scty": 50
         }
     },
