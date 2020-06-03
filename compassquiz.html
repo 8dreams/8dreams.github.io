@@ -1,13 +1,13 @@
 <head>
     <meta charset="utf-8">
-    <title>8dreams Compass Quiz</title>
+    <title>SapplyValues Quiz</title>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
     <link rel="icon" type="x-icon" href="icon.png">
     <link rel="shortcut icon" type="x-icon" href="icon.png">
 
-    <script type="application/javascript" src="compassquestions.js"></script>
+    <script type="application/javascript" src="questions.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -24,7 +24,6 @@
 <button class="button" onclick="next_question(0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
 <button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
 <button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
-<button class="button" onclick="next_question(-1.5)" style="background-color: #b71c1c;">This Sentence Angers Me</button> <br>
 <button class="button" onclick="next_question(-1.5)" style="background-color: #57180a;">This Sentence Angers Me</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button><br>
@@ -45,7 +44,21 @@
     }
 
 
-  
+    // Populate & shuffle questionsOrder
+
+    var questionsOrder = Object.keys(questionsObject); //Array of shuffled question IDs
+
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get("shuffle") == "true") {
+        shuffleArray(questionsOrder);
+    }
+
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
 
     // Question initialization
 
@@ -124,7 +137,7 @@
             }
         }
         //return;
-        location.href = `compassresults.html` + args
+        location.href = `feedback.html` + args
 
     }
 
