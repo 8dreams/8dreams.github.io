@@ -1,5 +1,4 @@
 questions = [
-    //Left-Right
     {"id": 0, "question": "I should be able to control my own property.", "effects": {"right": 1}},
     {"id": 1, "question": "Inheritance is a legitimate form of wealth.", "effects": {"right": 1}},
     {"id": 2, "question": "Theft should be considered a 'victimless crime'.", "effects": {"right": -1}},
@@ -45,6 +44,5 @@ questions = [
     {"id": 42, "question": "Post-Modernism is a bad ideology that aims to remove any meaning in existence.", "effects": {"prog": -1}},
     {"id": 43, "question": "Ancient Egyptians did a huge mistake by combining the Upper and Lower Kingdoms in 3000BC.", "effects": {"prog": 1}},
     {"id": 44, "question": "A surgery should be done to remove Humanity painlessly to avoid painful genocide in the future by robotic life.", "effects": {"prog": 1}},
-    {"id": 45, "question": "We should build a planetary wall to avoid Martian invasion.", "effects": {"prog": 1}}
-    
+    {"id": 45, "question": "We should build a planetary wall to avoid Martian invasion.", "effects": {"prog": 1}} 
 ];
