@@ -16,7 +16,7 @@ questions = [
     {"id": 14, "question": "The idea of property itself is selfish.", "effects": {"right": -1}},
     {"id": 15, "question": "If a member of society refuses to share their property, violence should be used.", "effects": {"right": -1}},
     {"id": 16, "question": "Totalitarian figures, if morally correct, are a good thing for society.", "effects": {"auth": 1}},
-    {"id": 17, "question": "The world of 1984 is a ideal world theoretically and practically.": {"auth": 1}},
+    {"id": 17, "question": "The world of 1984 is a ideal world theoretically and practically.", "effects": {"auth": 1}},
     {"id": 18, "question": "Only the community or collective can make a change, not the individual.", "effects": {"auth": 1}},
     {"id": 19, "question": "Governments are spooks.", "effects": {"auth": -1}},
     {"id": 20, "question": "We should kill a person rather than convincing them if they strongly disagree with us.", "effects": {"auth": 1}},
