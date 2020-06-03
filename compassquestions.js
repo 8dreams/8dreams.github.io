@@ -1,4 +1,4 @@
-questions =  [
+questions = [
     //Left-Right
     {"id": 0, "question": "I should be able to control my own property.", "effects": {"right": 1}},
     {"id": 2, "question": "Theft should be considered a 'victimless crime'.", "effects": {"right": -1}},
