@@ -1,6 +1,7 @@
 questions = [
     //Left-Right
     {"id": 0, "question": "I should be able to control my own property.", "effects": {"right": 1}},
+    {"id": 1, "question": "Inheritance is a legitimate form of wealth.", "effects": {"right": 1}},
     {"id": 2, "question": "Theft should be considered a 'victimless crime'.", "effects": {"right": -1}},
     {"id": 3, "question": "Unjust civilizations should be toppled, by nuclear force if necessary.", "effects": {"right": -1}},
     {"id": 4, "question": "A collectivist utopia has been proven unsuccessful in the past.", "effects": {"right": 1}},
