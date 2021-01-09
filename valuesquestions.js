@@ -324,7 +324,7 @@ questions = [
         }
     },
     {
-        "question": "The very concept of the NAP is unworkable.",
+        "question": "The very concept of the non-aggression principle (NAP) is unworkable.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "An Agression Principle, opposite to that of the NAP, should be used in society.",
+        "question": "An Agression Principle, opposite to that of the non-aggression principle (NAP), should be used in society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
