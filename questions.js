@@ -32,7 +32,7 @@ questions = [
     {"id": 30, "question": "Monitoring people's everyday lives produces stability and prosperity.", "effects": {"auth": 1}},
     {"id": 31, "question": "Life in the Middle Ages was significantly better.", "effects": {"prog": -1}},
     {"id": 32, "question": "Ever since the Renaissance and the Enlightenment, humanity has head the wrong direction.", "effects": {"prog": 1}},
-    {"id": 33, "question": "The transition from Amniotes to Mammals was a incorrect move.", "effects": {"prog": -1}},
+    {"id": 33, "question": "The transition from Amniotes to Mammals was an incorrect move.", "effects": {"prog": -1}},
     {"id": 34, "question": "Technological development will soon destroy humanity.", "effects": {"prog": 1}},
     {"id": 35, "question": "Humanity as a species should not have existed.", "effects": {"prog": -1}},
     {"id": 36, "question": "Rather than frustrating about Global Warming, we should just wait until technology solves the problem.", "effects": {"prog": 1}},
